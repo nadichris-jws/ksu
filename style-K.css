@@ -52,7 +52,7 @@ body::before{
   display: flex;
   flex-direction: column;  /* box jadi vertikal */
   gap: 5px;
-  width: 80px;   /* atur lebar sesuai kebutuhan */
+  width: 100px;   /* atur lebar sesuai kebutuhan */
 }
 
 .box {
@@ -62,12 +62,12 @@ body::before{
 
 .box span {
   display: block;
-  font-size: 28px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
 .box strong {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* WARNA TIAP SHOLAT */
