@@ -52,7 +52,7 @@ body::before{
   display: flex;
   flex-direction: column;  /* box jadi vertikal */
   gap: 5px;
-  width: 150px;   /* atur lebar sesuai kebutuhan */
+  width: 110px;   /* atur lebar sesuai kebutuhan */
 }
 
 .box {
