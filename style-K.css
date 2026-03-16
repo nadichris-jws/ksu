@@ -47,12 +47,12 @@ body::before{
 
 .jadwal {
   position: absolute;
-  bottom: 60px;     
+  bottom: 50px;     
   right: 0;       /* pindah ke kanan */
   display: flex;
   flex-direction: column;  /* box jadi vertikal */
   gap: 5px;
-  width: 150px;   /* atur lebar sesuai kebutuhan */
+  width: 80px;   /* atur lebar sesuai kebutuhan */
 }
 
 .box {
@@ -67,7 +67,7 @@ body::before{
 }
 
 .box strong {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 /* WARNA TIAP SHOLAT */
