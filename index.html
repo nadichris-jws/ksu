@@ -40,15 +40,19 @@ body {
  .header-center { text-align: center; }
  #masjidName { font-size: 2.6rem; font-weight: 900; }
 
- /* ALAMAT BERJALAN */
- #alamatWrapper { overflow: hidden; white-space: nowrap; margin-top: 6px; }
- #alamatMasjid {
- display: inline-block;
- padding-left: 100%;
- animation: alamatJalan 18s linear infinite;
- font-size: 1.3rem;
- color: #ffeeaa;
- }
+/* ALAMAT BERJALAN */
+#alamatWrapper{
+  overflow:hidden;
+  white-space:nowrap;
+  margin-top:6px;
+}
+#alamatMasjid{
+  display:inline-block;
+  padding-left:100%;
+  animation:alamatJalan 18s linear infinite;
+  font-size:1.3rem;
+  color:#ffeeaa;
+}
  @keyframes alamatJalan {
  from { transform: translateX(0); }
  to { transform: translateX(-100%); }
@@ -134,7 +138,7 @@ th,td{
  </div>
 
  <div class="header-right">
- <div id="tanggalDisplay"></div>
+ <marquee> <div id="tanggalDisplay"></div> </marquee>
  <div id="hijriDisplay"></div>
  </div>
 </div>
@@ -221,7 +225,7 @@ th,td{
  <div class="iqomah-text">MENJELANG IQOMAH</div>
  </div>
 </div>
-<script src="sudi_2026.js"></script>
+<script src="jeb_2026.js"></script>
 
 <script>
 /* GLOBAL VARIABLES */
@@ -400,9 +404,9 @@ function updateHariBesar(){
 }
 updateHariBesar();
 </script>
-
 </body>
 </html>
+
 
 
 
